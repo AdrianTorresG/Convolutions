@@ -35,7 +35,7 @@ def simpleBoxBlur(k):
 
 #Horizontal line detection with image convolutions
 def horizontalLineDetection(k):
-    #Se asegura que el tamaño de la matriz sea impar
+    #Se asegura que las dimensiones de la matriz no sean impares
     if (k % 2 == 0):
         k += 1
         
@@ -50,7 +50,7 @@ def horizontalLineDetection(k):
 
 #Vertical line detection with image convolutions
 def verticalLineDetection(k):
-    #Se asegura que el tamaño de la matriz sea impar
+    #Se asegura que las dimensiones de la matriz no sean impares
     if (k % 2 == 0):
         k += 1
         

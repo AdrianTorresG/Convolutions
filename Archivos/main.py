@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 import argparse
-from PIL import Image
 from scipy import ndimage
+from PIL import Image
 
 #Se importan las funciones para generar los kernels
-from kernel import *
+from LIB import *
 
 if __name__ == "__main__":
     
