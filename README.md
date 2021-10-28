@@ -19,11 +19,11 @@ _Son dos archivos los que conforman este proyecto:_
 
 _Para la ejecución se necesita el nombre (y ruta si es necesario) del archivo donde se encuentra la imagen a la que se le quiere aplicar las convoluciones._
 ```
-python main.py miImagen.py
+python main.py miImagen.png
 ```
 _Con ruta:_
 ```
-python main.py /Usuario/miUsuario/Descargas/miImagen.py
+python main.py /Usuario/miUsuario/Descargas/miImagen.png
 ```
 
 ### Kernels
@@ -34,3 +34,19 @@ _Hay 5 kernels utilizados en este proyecto para generar las convoluciones:_
 * ”Simple Box Blur” que tiene la misma finalidad que “Gaussian Blur” solo que este es más fácil de implementar y se utiliza solo cuando se quiere obtener una aproximación del antes mencionado  “Gaussian Blur”.
 * ”Horizontal Line Detection” que, como su nombre lo indica, sirve para detectar fácilmente líneas horizontales.
 * ”Vertical Line Detection” que sirve para detectar fácilmente líneas verticales.
+
+### Librerías utilizadas 🛠️
+
+* “numpy” - para la creación de matrices.
+* ”argparse” - para la obtención de argumentos a través de la línea de comandos.
+* ”PIL” - para el manejo de imágenes.
+* ”scipy” - para la creación de convoluciones.
+* ”matplotlib” - para la graficación de las imágenes con convoluciones.
+
+### Autor ✒️
+
+_Adrián Torres González A01369810_
+
+---
+Creado por [AdrianTorresG](https://github.com/AdrianTorresG)
+
