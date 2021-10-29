@@ -47,6 +47,8 @@ _Hay 5 kernels utilizados en este proyecto para generar las convoluciones:_
 
 _Adrián Torres González A01369810_
 
+![alt text](https://github.com/AdrianTorresG/Convolutions/blob/main/Imagenes/ejemploSalida.png?raw=true)
+
 ---
 Creado por [AdrianTorresG](https://github.com/AdrianTorresG)
 
