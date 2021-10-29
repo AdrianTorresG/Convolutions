@@ -10,6 +10,7 @@ Ver **Ejecución** para conocer cómo ejecutar el proyecto.
 ## Convolución
 
 _Una convolución es el tratamiento de una matriz (en este caso una imagen ya que es una colección bidimensional de píxeles ordenados en forma de coordenadas) por otra que se llama "kernel" que será diferente dependiendo del efecto que se quiera aplicar._
+_En este proyecto se le agrega un padding a las imágenes para que no se pierda la información de los bordes._
 
 ### Conformación 📋
 
